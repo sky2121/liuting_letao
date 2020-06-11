@@ -79,7 +79,9 @@ $("#form").bootstrapValidator({
             success:function (info) {
                 console.log(info);
                 if(info.success){
-                    location.href="index.html"
+                    setTimeout(function () {
+                        location.href="index.html"
+                    },500)
                 }
                 if(info.error === 1000){
                     //INVALID 失败 VALID  NOT_VALIDATED   VALIDATED
