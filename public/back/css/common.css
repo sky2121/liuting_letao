@@ -1,3 +1,11 @@
+a:link,a:visited,a:active a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding:0;
+}
 .body_bg{
     background-color:#222D32;
 }
@@ -9,4 +17,58 @@
 }
 .mt_150{
     margin-top: 150px;
+}
+.lt_aside{
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #222D32;
+}
+.lt_aside .band{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #367FA9;
+}
+.lt_aside .band a{
+    color: white;
+}
+.lt_aside .user img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.lt_aside .user p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+.lt_aside .user{
+    padding-top: 30px;
+}
+.lt_aside .nav a{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    padding-left: 40px;
+    border-left: 3px solid transparent;
+
+ }
+.lt_aside .nav .child a{
+    padding-left: 60px;
+
+}
+.lt_aside .nav a.current{
+    background-color: #1d1f21;
+    border-left: 3px solid #069;
 }
