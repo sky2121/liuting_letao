@@ -34,9 +34,9 @@ $(function(){
     })
 //    2.
     $(".icon_menu").click(function () {
-        $(".lt_aside").addClass("hidemenu");
-        $(".lt_topbar").addClass("hidemenu");
-        $(".it_main").addClass("hidemenu");
+        $(".lt_aside").toggleClass("hidemenu");
+        $(".lt_topbar").toggleClass("hidemenu");
+        $(".it_main").toggleClass("hidemenu");
     })
 //    3.点击topbar按钮退出模态框
     $(".icon_out").click(function () {
